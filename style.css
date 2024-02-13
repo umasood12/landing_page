@@ -4,7 +4,7 @@ body {
     flex-direction: column;
 }
 
-button {
+.button {
     background-color: #3882f6;
     font-size: 16px;
     color: white;
@@ -12,6 +12,10 @@ button {
     border-radius: 7px;
     height: 30px;
     width: 100px;
+}
+
+figcaption {
+    align-items: center;
 }
 
 .header {
@@ -64,10 +68,42 @@ ul {
 }
 
 .section-two {
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 50px;
 }
 
 .main-text {
     font-size: 48px;
+}
+
+.information-header {
+    display: flex;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.containers {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    gap: 10px;
+}
+
+.info-button {
+    height: 200px;
+    width: 200px;
+    color: white;
+    border-color: #3882f6;
+    border-radius: 10px;
 }
