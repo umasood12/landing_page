@@ -48,6 +48,7 @@ ul {
     color: #f9faf8;
     padding: 10px;
     gap: 100px;
+    padding-bottom: 50px;
 }
 
 .one-left {
@@ -74,6 +75,7 @@ ul {
     flex-direction: column;
     gap: 30px;
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .main-text {
@@ -107,3 +109,33 @@ ul {
     border-color: #3882f6;
     border-radius: 10px;
 }
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.quote-section {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}git 
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.thor-caption {
+    display: flex;
+    justify-content: right;
+    width: 940px;
+    font-weight: bold;
+}
+
