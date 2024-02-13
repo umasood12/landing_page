@@ -8,7 +8,7 @@ body {
     background-color: #3882f6;
     font-size: 16px;
     color: white;
-    border: none;
+    border-color: white;
     border-radius: 7px;
     height: 30px;
     width: 100px;
@@ -26,6 +26,20 @@ figcaption {
     background-color: #1f2937;
     color: white;
     padding: 20px;
+}
+
+footer {
+    bottom: 0;
+    /* left: 0;
+    right: 0; */
+    height: 52px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #F9FAF8;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 500px;
 }
 
 ul {
@@ -123,7 +137,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 1000px;
-}git 
+}
 
 .quote {
     display: flex;
@@ -139,3 +153,32 @@ ul {
     font-weight: bold;
 }
 
+.call-to-action {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #3882f6;
+    width: 1000px;
+    flex-direction: row;
+    height: 200px;
+    padding: 10px;
+    vertical-align: center;
+}
+
+.action1 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bottom-right {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-button {
+    display: flex;
+    justify-content: center;
+    height: 25px;
+    color: white;
+    background-color: #3882f6;
+    border-color: whtie;
+}
